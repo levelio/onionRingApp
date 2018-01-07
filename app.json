@@ -1,4 +1,7 @@
 {
-  "name": "onionRingApp",
-  "displayName": "onionRingApp"
+  "name": "onionRingApp", // The short name used for the project, should be TitleCase
+  "displayName": "洋葱圈" // The app's name on the home screen
 }
+
+// TODO: react-native eject link ????
+// https://stackoverflow.com/questions/42409459/react-native-0-41-app-json
