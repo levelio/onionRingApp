@@ -1,17 +1,22 @@
-import { StackNavigator } from 'react-navigation'
-import LaunchScreen from '../Containers/LaunchScreen'
+import { TabNavigator } from 'react-navigation'
+import HomeScreen from '../Containers/HomeScreen'
+import ToolsScreen from '../Containers/ToolsScreen'
+import SettingScreen from '../Containers/SettingScreen'
 
-import styles from './Styles/NavigationStyles'
+// import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
-const PrimaryNav = StackNavigator({
-  LaunchScreen: { screen: LaunchScreen }
+const PrimaryNav = TabNavigator({
+  HomeScreen: { screen: HomeScreen },
+  ToolsScreen: { screen: ToolsScreen },
+  SettingScreen: { screen: SettingScreen }
 }, {
-  // Default config for all screens
-  headerMode: 'none',
-  initialRouteName: 'LaunchScreen',
-  navigationOptions: {
-    headerStyle: styles.header
+  initialRouteName: 'HomeScreen',
+  tabBarOptions: {
+    activeTintColor: '#666',
+    tabBarPosition: 'bottom',
+    inactiveTintColor: '#999',
+    showIcon: true
   }
 })
 
