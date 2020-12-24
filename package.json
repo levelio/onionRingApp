@@ -24,7 +24,7 @@
     "git-hook": "npm run lint -s && npm run test -s"
   },
   "dependencies": {
-    "apisauce": "^0.14.2",
+    "apisauce": "^2.0.0",
     "format-json": "^1.0.3",
     "identity-obj-proxy": "^3.0.0",
     "lodash": "^4.17.4",
