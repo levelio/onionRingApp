@@ -4017,6 +4017,11 @@ hoist-non-react-statics@1.x.x, hoist-non-react-statics@^1.2.0:
   version "1.2.0"
   resolved "http://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-1.2.0.tgz#aa448cf0986d55cc40773b17174b7dd066cb7cfb"
 
+hoist-non-react-statics@^2.2.0:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
+  integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
+
 hoist-non-react-statics@^2.2.1:
   version "2.3.1"
   resolved "http://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-2.3.1.tgz#343db84c6018c650778898240135a1420ee22ce0"
@@ -6827,9 +6832,10 @@ react-native-dismiss-keyboard@1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/react-native-dismiss-keyboard/download/react-native-dismiss-keyboard-1.0.0.tgz#32886242b3f2317e121f3aeb9b0a585e2b879b49"
 
-react-native-drawer-layout-polyfill@^1.3.0:
+react-native-drawer-layout-polyfill@^1.3.2:
   version "1.3.2"
-  resolved "http://registry.npm.taobao.org/react-native-drawer-layout-polyfill/download/react-native-drawer-layout-polyfill-1.3.2.tgz#192c84d7a5a6b8a6d2be2c7daa5e4164518d0cc7"
+  resolved "https://registry.yarnpkg.com/react-native-drawer-layout-polyfill/-/react-native-drawer-layout-polyfill-1.3.2.tgz#192c84d7a5a6b8a6d2be2c7daa5e4164518d0cc7"
+  integrity sha512-XzPhfLDJrYHru+e8+dFwhf0FtTeAp7JXPpFYezYV6P1nTeA1Tia/kDpFT+O2DWTrBKBEI8FGhZnThrroZmHIxg==
   dependencies:
     react-native-drawer-layout "1.3.2"
 
@@ -6847,11 +6853,12 @@ react-native-iphone-x-helper@^1.0.1:
   version "1.0.1"
   resolved "http://registry.npm.taobao.org/react-native-iphone-x-helper/download/react-native-iphone-x-helper-1.0.1.tgz#950dbdaca66f458689a7e9697c5beb9bd53f98f2"
 
-react-native-tab-view@^0.0.65:
-  version "0.0.65"
-  resolved "http://registry.npm.taobao.org/react-native-tab-view/download/react-native-tab-view-0.0.65.tgz#b685ea3081ff7c96486cd997361026c407302c59"
+react-native-tab-view@^0.0.74:
+  version "0.0.74"
+  resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-0.0.74.tgz#62c0c882d9232b461ce181d440d683b4f99d1bd8"
+  integrity sha512-aCrLugxt5LqdSk0pHqu/nDGZMIM3NvxVcXb464coY7ecWgem6IxQ8riO3QXPJhXZ7HaayfofBJF9w4uIWt/AoQ==
   dependencies:
-    prop-types "^15.5.8"
+    prop-types "^15.6.0"
 
 react-native-vector-icons@4.3.0:
   version "4.3.0"
@@ -6918,17 +6925,17 @@ react-native@0.50.4:
     xmldoc "^0.4.0"
     yargs "^9.0.0"
 
-react-navigation@1.0.0-beta.11:
-  version "1.0.0-beta.11"
-  resolved "http://registry.npm.taobao.org/react-navigation/download/react-navigation-1.0.0-beta.11.tgz#4271edb23cdbcc6eb88602f7fde0a77f0ef7a160"
+react-navigation@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-navigation/-/react-navigation-1.0.0.tgz#a808ab035ab5243d99f9e194d13811052bd9a835"
+  integrity sha512-f56NZ416FMl/hULKhq34IMLw1l/1sT4oljJtfFIh/aIgg3VgmYtd1MupnrNOF9P05OLkwDy8i/yoVTvGZRFGPw==
   dependencies:
     clamp "^1.0.1"
-    fbjs "^0.8.12"
-    hoist-non-react-statics "^1.2.0"
+    hoist-non-react-statics "^2.2.0"
     path-to-regexp "^1.7.0"
     prop-types "^15.5.10"
-    react-native-drawer-layout-polyfill "^1.3.0"
-    react-native-tab-view "^0.0.65"
+    react-native-drawer-layout-polyfill "^1.3.2"
+    react-native-tab-view "^0.0.74"
 
 react-proxy@^1.1.7:
   version "1.1.8"
